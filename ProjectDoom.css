@@ -11,25 +11,28 @@ header{
     background-image: url(../Project-Doom/images/Latveria.jpg);
     background-color: #788490;
     background-size: cover;
+    background-position: center;
     text-align: center;
     padding-top: 70px;
     padding-bottom: 70px;
-    max-width: 800px;
     max-width: 100%;
+    
 }
 
 header h1{
     color: black;
     font-size: 75px;
+    text-align: center;
 }
 
 h1, h2{
     font-family: 'Mate SC', serif;
 }
 header img{
-    border-radius: 250px;
     width: 500px;
+    border-radius: 250px;
     border: 7px solid black;
+    text-align: center;
 }
 
 main{
@@ -78,9 +81,4 @@ footer a:hover{
 p.caption{
     font-style: italic;
     margin-top: 0;
-}
-
-img.class{
-    margin-left: 20px;
-    margin-top: 20px;
 }
