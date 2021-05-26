@@ -3,6 +3,8 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     line-height: 30px;
+    background-color: black;
+    color: #788490;
 }
 
 header{
@@ -70,7 +72,6 @@ footer a:hover{
 }
 
 p.caption{
-    color: grey;
     font-style: italic;
     margin-top: 0;
 }
