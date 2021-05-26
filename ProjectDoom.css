@@ -8,10 +8,14 @@ body{
 }
 
 header{
+    background-image: url(../Project-Doom/images/Latveria.jpg);
     background-color: #788490;
+    background-size: cover;
     text-align: center;
     padding-top: 70px;
     padding-bottom: 70px;
+    max-width: 800px;
+    max-width: 100%;
 }
 
 header h1{
@@ -74,4 +78,9 @@ footer a:hover{
 p.caption{
     font-style: italic;
     margin-top: 0;
+}
+
+img.class{
+    margin-left: 20px;
+    margin-top: 20px;
 }
