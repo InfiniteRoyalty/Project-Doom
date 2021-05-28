@@ -2,20 +2,22 @@ body{
     margin: 0%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
-    line-height: 30px;
+    line-height: 70px;
     background-color: black;
     color: #788490;
 }
 
-header{
-    background-image: url(../Project-Doom/images/Latveria.jpg);
+header{   
+    background-image: url(../images/Latveria.jpg);
     background-color: #788490;
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     text-align: center;
     padding-top: 70px;
     padding-bottom: 70px;
     max-width: 100%;
+    overflow-wrap: break-word;
     
 }
 
@@ -33,6 +35,7 @@ header img{
     border-radius: 250px;
     border: 7px solid black;
     text-align: center;
+    object-fit: scale-down;
 }
 
 main{
@@ -62,11 +65,13 @@ footer{
     color: black;
     background-color: #788490;
     text-align: center;
-    padding: 50px;
+    padding: 20px;
 }
 
 footer p{
     margin: 0;
+    overflow-wrap: break-word;
+    text-indent: 2px;
 }
 
 footer a{
@@ -81,4 +86,53 @@ footer a:hover{
 p.caption{
     font-style: italic;
     margin-top: 0;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 500px) {
+    header{
+        height: auto;
+        max-height: 100%;
+        max-width: 100%;
+        object-fit: cover;
+        padding: 10px;
+    }
+
+    header img{
+        height: 400px;
+        width: 400px;
+        object-fit: scale-down;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    header{
+        height: auto;
+        max-height: 100%;
+        max-width: 100%;
+        object-fit: cover;
+        padding: 10px;
+    }
+
+    header img{
+        height: 300px;
+        width: 300px;
+        object-fit: scale-down;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    header{
+        height: auto;
+        max-height: 100%;
+        max-width: 100%;
+        object-fit: cover;
+        padding: 10px;
+    }
+
+    header img{
+        height: 200px;
+        width: 200px;
+        object-fit: scale-down;
+    }
 }
