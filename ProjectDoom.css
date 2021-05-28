@@ -7,8 +7,8 @@ body{
     color: #788490;
 }
 
-header{   
-    background-image: url(./images/Latveria.jpg);
+header{
+    background-image: url(images/Latveria.jpg);
     background-color: #788490;
     background-repeat: no-repeat;
     background-size: cover;
@@ -95,7 +95,7 @@ p.caption{
         max-height: 100%;
         max-width: 100%;
         object-fit: cover;
-        padding: 0 0 1px 0;
+        padding: 5px 0 5px 0;
     }
 
     header img{
