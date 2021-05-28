@@ -103,6 +103,11 @@ p.caption{
         width: 400px;
         object-fit: scale-down;
     }
+
+    p{
+        object-fit: scale-down;
+        overflow-wrap: break-word;
+    }
 }
 
 @media screen and (max-width: 400px) {
