@@ -95,7 +95,7 @@ p.caption{
         max-height: 100%;
         max-width: 100%;
         object-fit: cover;
-        padding: 10px;
+        padding: 5px;
     }
 
     header img{
@@ -106,7 +106,6 @@ p.caption{
 
     p{
         object-fit: scale-down;
-        overflow-wrap: break-word;
     }
 }
 
@@ -120,13 +119,13 @@ p.caption{
     }
 
     header img{
-        height: 300px;
-        width: 300px;
+        height: 280px;
+        width: 280px;
         object-fit: scale-down;
     }
 }
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 320px) {
     header{
         height: auto;
         max-height: 100%;
@@ -136,7 +135,7 @@ p.caption{
     }
 
     header img{
-        height: 200px;
+        height:200px;
         width: 200px;
         object-fit: scale-down;
     }
